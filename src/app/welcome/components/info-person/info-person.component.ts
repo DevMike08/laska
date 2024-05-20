@@ -7,20 +7,10 @@ import * as Hammer from 'hammerjs';
   styleUrls: ['./info-person.component.css'],
 })
 export class InfoPersonComponent implements AfterViewInit {
-  // @Input() card: any;
-
-  // constructor(private elementRef: ElementRef) {}
-
-  // ngAfterViewInit() {
-  //   const hammer = new Hammer(this.elementRef.nativeElement);
-  //   hammer.on('swipe', (event) => {
-  //     if (event.direction === Hammer.DIRECTION_LEFT) {
-  //       this.card.swipeAction = 'nope';
-  //     } else if (event.direction === Hammer.DIRECTION_RIGHT) {
-  //       this.card.swipeAction = 'like';
-  //     }
-  //   });
-  // }
+  
+  @Input() userName?: string;
+  @Input() userAge?: number;
+  @Input() userImg?: string;
 
   constructor(private elementRef: ElementRef) {}
 
@@ -160,7 +150,7 @@ export class InfoPersonComponent implements AfterViewInit {
           });
         }
 
-        //! reset the choice info opacity
+        // reset the choice info opacity
         if (actualCard) {
           (actualCard.querySelectorAll('.choice') as NodeListOf<HTMLElement>).forEach((el) => {
             el.style.opacity = '0';

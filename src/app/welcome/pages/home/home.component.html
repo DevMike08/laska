@@ -3,7 +3,7 @@
         <app-navigation></app-navigation>
     </header>
     <main>
-        <app-info-person *ngFor="let card of cards"></app-info-person>
+        <app-info-person *ngFor="let user of users" [userName]="user.name.first" [userAge]="user.dob.age" [userImg]="user.picture.large"></app-info-person>
         <span>No hay mas personas cerca de ti...<br>Vuelvelo a intentar mas tarde</span>
     </main>
     <footer>
