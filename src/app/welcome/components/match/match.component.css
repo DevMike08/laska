@@ -1,0 +1,24 @@
+.nav_option_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_option_section div{
+    border: 1px solid #81007F;
+    border-radius: 50px;
+    padding: 10px;
+}
+.nav_option_section div:nth-child(2){
+    border: 1px solid #FF9405;
+}
+
+.nav_option_section svg{
+    width: 35px;
+    height: 35px;
+}
+.nav_option_section svg{
+    color: #81007F;
+}
+.nav_option_section div:nth-child(2) svg{
+    color: #FF9405;
+}

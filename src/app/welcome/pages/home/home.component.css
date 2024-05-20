@@ -1,27 +1,20 @@
-.matches_section{
-    margin: 0 5%;
-    height: 80vh;
-    display: flex;
-    justify-content: end;
-    align-items:start;
-    flex-direction: column;
-    border: 1px rgb(29, 29, 29) solid;
-    border-radius: 10px;
-}
-.nav_option_section{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #0000007a;
+.site-home{
+    overflow: hidden;
+    padding: 0 10px;
 }
 
-.nav_option_section svg{
-    width: 50px;
-    height: 50px;
+header, footer{
+    height: 10vh;
 }
-.nav_option_section svg{
-    color: #81007F;
+main{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.nav_option_section div:nth-child(2) svg{
-    color: #FF9405;
+
+span{
+    font-size: 18px;
+    text-align: center;
 }
