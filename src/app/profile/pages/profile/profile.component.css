@@ -1,0 +1,7 @@
+main{
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    position: relative;
+    inset: 0;
+}

@@ -1,0 +1,13 @@
+.section-infoProfile{
+    text-align: center;
+    margin-bottom: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    object-fit: cover;
+    border: 1px solid #81007F;
+    box-shadow: 0px 0px 9px 1px gray;
+    margin-top: 20px;
+}
