@@ -1,0 +1,84 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-circle {
+  border-radius: 50%;
+  width: 40px;
+  /* Ajusta el tamaño según tus necesidades */
+  height: 40px;
+  /* Ajusta el tamaño según tus necesidades */
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-circle svg {
+  width: 90%;
+  /* Ajusta el tamaño del icono según tus necesidades */
+  height: 90%;
+  /* Ajusta el tamaño del icono según tus necesidades */
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  /* Define el color de fondo de Facebook */
+  border-color: #3b5998;
+  /* Cambia también el color del borde */
+}
+
+.btn-black {
+  background-color: white;
+  /* Cambia el color de fondo del botón a negro */
+  border-color: white;
+  /* Cambia el color del borde del botón a negro */
+  color: black;
+  /* Cambia el color del texto del botón a blanco */
+}
+
+/* Cambia el color del icono a blanco */
+.icon-white {
+  fill: black;
+  /* Cambia el color de relleno del icono a blanco */
+}
+
+.btn-circle {
+      width: 50px; /* Ajusta este valor al tamaño deseado */
+      height: 50px; /* Ajusta este valor al tamaño deseado */
+      padding: 0; /* Asegúrate de que no haya padding adicional */
+      border-radius: 50%; /* Hace que el botón sea circular */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; /* Asegúrate de que la imagen no se salga del botón */
+      border: none; /* Opcional: elimina el borde */
+    }
+
+    .btn-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin deformarse */
+    }
+
+    .custom-red-button {
+      background-color: red;
+      border-color: red;
+    }
+
+        .full-height {
+          height: 100vh;
+        }
+
+        .centered-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .form-container {
+          width: 100%;
+          max-width: 400px;
+        }
+
+
